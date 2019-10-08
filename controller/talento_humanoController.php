@@ -311,9 +311,9 @@ class talento_humanoController extends talento_humanoDAO
         $funcionario = $this->getFuncionarioID($id_talento_humano);
 
         echo '<div class="panel panel-default titulo-barra-amarilla">
-                    <div class="icono_hvs-foto"></div>
-                      <div class="panel-body titulo-hvs-det-fot">
-                        ' . $funcionario[0]['nombre_funcionario'] . ' ' . $funcionario[0]['apellido_funcionario'] . '<br>' . $funcionario[0]["nombre_cargo"] . '
+                      <div class="panel-body titulo-hvs-det-fot div_talento_humano">
+                        <div class="funcionario">' . $funcionario[0]['nombre_funcionario'] . ' ' . $funcionario[0]['apellido_funcionario'] . '</div>' .
+            '<div class="cargo">' . $funcionario[0]["nombre_cargo"] . '</div>
                       </div>
                     </div>
                 </div>';

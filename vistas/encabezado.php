@@ -1,7 +1,7 @@
-<?php 
-    include("../conexion/datos.php");
-    include("../controller/helper_controller/scripts_cont.php");
- ?>
+<?php
+include "../conexion/datos.php";
+include "../controller/helper_controller/scripts_cont.php";
+?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -19,15 +19,15 @@
     <title>SISEP</title>
 
 
-    <?php 
+    <?php
 
-        $scripts = new scripts_pag();
-        $scripts->standarCss();
-     ?>
+$scripts = new scripts_pag();
+$scripts->standarCss();
+?>
 
 </head>
 
 <body>
 
     <div id="wrapper">
-        
+

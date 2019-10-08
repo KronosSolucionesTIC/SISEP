@@ -423,3 +423,28 @@ td:hover.tooltips span {
 .anio_total {
     font-weight: bold;
 }
+.div_talento_humano {
+    background: url("../../../../img/fondo_talento_humano.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 127px;
+    width: 100%;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: local('Raleway'), url('https://fonts.googleapis.com/css?family=Raleway&display=swap') format('truetype');
+}
+.funcionario {
+    text-align: left;
+    font-family: 'Raleway Extra Bold', sans-serif;
+    color: white;
+    font-size: 30px;
+}
+.cargo {
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 15px;
+}
